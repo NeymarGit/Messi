@@ -18,6 +18,7 @@ public class RunJuheApi extends BaseRunCase {
         String response = call(apiInfo, caseInfo);
         int a = 1;
         log.info("=======返回内容===========" + response);
+        log.info("=======返回内容===========" + response);
         // 调用断言方法
         String way = assertWay(response, caseInfo);
         // 存储回写的内容
