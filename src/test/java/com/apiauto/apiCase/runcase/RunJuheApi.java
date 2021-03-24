@@ -16,8 +16,6 @@ public class RunJuheApi extends BaseRunCase {
     public void run(ApiInfo apiInfo, CaseInfo caseInfo) {
         // 调用接口
         String response = call(apiInfo, caseInfo);
-        int a = 1;
-        log.info("=======返回内容===========" + response);
         log.info("=======返回内容===========" + response);
         // 调用断言方法
         String way = assertWay(response, caseInfo);
